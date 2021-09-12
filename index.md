@@ -26,40 +26,49 @@
 ![5](https://user-images.githubusercontent.com/90462450/132988818-5a109b37-a29c-4a53-8123-6d3ebdbb36b2.png)
 ![6](https://user-images.githubusercontent.com/90462450/132988819-c409a9ce-cb65-49be-a38e-c5cacd52364c.png)
 ![7](https://user-images.githubusercontent.com/90462450/132988820-4b80e4b3-f254-4786-ab81-dd47944ce7f2.png)
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="font-family: 'DejaVu Serif'; margin-left: 32%">
+      Martial Arts Simulator
+    </h1>
+    <canvas
+      id="my-canvas"
+      height="500"
+      width="850"
+      style="
+        background: url('images/background.jpg');
+        background-size: 850px 500px;
+        margin-left: 20%;
+      "
+    >
+      <img src="images/background.jpg" style="width: auto; height: auto" />
+    </canvas>
 
-You can use the [editor on GitHub](https://github.com/DrVijayaSaradhi/Project123/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <div style="vertical-align: bottom; margin-top: 3%; margin-left: 28%">
+      <button id="forward">Forward</button>
+      <button id="block">Block</button>
+      <button id="backward">Backward</button>
+      <button id="kick">Kick</button>
+      <button id="punch">Punch</button>
+    </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <p style="margin-left: 28%">
+      &emsp;===============Controls===============
+      <br />
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A - Backward &nbsp; &nbsp; D - Forward &nbsp;&nbsp; S - Kick &nbsp&nbsp W - Punch&nbsp&nbsp 
+      <br><br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Space - Block
+    </p>
 
-### Markdown
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DrVijayaSaradhi/Project123/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
